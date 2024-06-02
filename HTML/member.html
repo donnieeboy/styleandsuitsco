@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Page - Style and Suits Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Member Page - Style and Suits Co.</h1>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#orders">Orders</a>
+    <a href="#wishlist">Wishlist</a>
+</nav>
+
+<div class="container">
+    <section id="profile">
+        <h2>My Profile</h2>
+        <p>Update your profile information here.</p>
+        <form action="#" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Update Profile">
+        </form>
+    </section>
+
+    <section id="orders">
+        <h2>My Orders</h2>
+        <p>View your order history and track your shipments.</p>
+        <!-- Display orders here -->
+    </section>
+
+    <section id="wishlist">
+        <h2>My Wishlist</h2>
+        <p>Save your favorite items for future purchase.</p>
+        <!-- Display wishlist items here -->
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 Style and Suits Co. All rights reserved.
+</footer>
+
+</body>
+</html>
